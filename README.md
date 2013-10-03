@@ -20,7 +20,7 @@ The Command Design pattern has five main parts: a _Command_ interface, a _Concre
 * The _Invoker_ asks the command to carry out the request. It actually _invokes_ the command.
 * The _Receiver_ knows how to perform the operations associated with each request.
 
-This may seem a little complex, but it will all come together soon enough.
+This may seem a little complex, but it will all come together soon enough. The following figure shows the UML diagram for the pattern.
 
 ![UML Diagram for the Command Pattern](images/command_pattern.png)
 

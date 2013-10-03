@@ -1,6 +1,8 @@
-# Command Design Pattern
+% Command Design Pattern
+% Casey Scarborough
+% October 3, 2013
 
-## What is the Command Design Pattern?
+# What is the Command Design Pattern?
 
 Definition from [Wikipedia](http://en.wikipedia.org/wiki/Command_pattern):
 
@@ -8,7 +10,7 @@ Definition from [Wikipedia](http://en.wikipedia.org/wiki/Command_pattern):
 
 In simpler terms, the Command Design pattern gives you a way to execute commands, keep track of them, redo or undo them, along with some other features.
 
-## Parts of the Pattern
+# Parts of the Pattern
 
 The Command Design pattern has five main parts: a _Command_ interface, a _ConcreteCommand_, a _Receiver_, an _Invoker_, and a _Client_. An explanation of these parts is as follows:
 
@@ -20,7 +22,9 @@ The Command Design pattern has five main parts: a _Command_ interface, a _Concre
 
 This may seem a little complex, but it will all come together soon enough.
 
-## Resources
+![UML Diagram for the Command Pattern](images/command_pattern.png)
+
+# Resources
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Command_pattern)
 * [OODesign](http://www.oodesign.com/command-pattern.html)

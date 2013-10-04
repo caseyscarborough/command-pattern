@@ -1,4 +1,3 @@
-*.pdf
 *.class
 
 # User-specific files
@@ -146,6 +145,9 @@ Desktop.ini
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
+
+CommandPattern.md
+images/
 
 # Mac crap
 .DS_Store

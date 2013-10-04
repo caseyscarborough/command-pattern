@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace CommandPatternStructural
 {
+    // <summary>
+    // The invoker asks the command to carry out the request.
+    // It is bound to one specific command at any given time.
+    // </summary>
     class Invoker
     {
         private Command _command;

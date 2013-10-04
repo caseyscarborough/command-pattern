@@ -1,4 +1,5 @@
 *.pdf
+*.class
 
 # User-specific files
 *.suo

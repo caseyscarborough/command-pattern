@@ -3,7 +3,7 @@ package commandpattern.receivers;
 /**
  * This abstract class is used to define the methods that
  * will be used for each of our devices. These devices
- * are the "Receivers" in the commandpattern.Commandommands.Command Pattern.
+ * are the "Receivers" in the Command Pattern.
  */
 public abstract class Device {
 

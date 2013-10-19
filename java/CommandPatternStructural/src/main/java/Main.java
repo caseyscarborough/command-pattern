@@ -5,12 +5,12 @@
  * can then be executed via the invoker.
  */
 public class Main {
-  
+
   public static void main(String[] args) {
 
     // Create a new receiver.
     Receiver receiver = new Receiver();
-    
+
     // Create a new command and bind it to our receiver.
     Command command = new ConcreteCommand(receiver);
 

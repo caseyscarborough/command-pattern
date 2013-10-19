@@ -20,6 +20,6 @@ public class Main {
     // Bind the command to our invoker and execute it.
     invoker.setCommand(command);
     invoker.executeCommand();
-  }
 
+  }
 }
